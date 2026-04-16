@@ -1,28 +1,52 @@
-## Data Digger – SQL Project
-# Overview
+## Project title
 
-Data Digger is a simple SQL-based project designed to manage and analyze data efficiently. It focuses on performing real-world database operations like storing, retrieving, filtering, and analyzing structured data.
+**Data Digger**
 
-This project is ideal for beginners who want to practice SQL concepts in a practical way.
+##  Objective
 
-##Database Structure
+**Data Digger** is a practical SQL project that provides hands-on experience in managing a MySQL database.
+It covers:
 
-The project includes the following main components:
+* CRUD operations (Create, Read, Update, Delete)
+* SQL clauses and operators
+* Aggregate functions
+* Primary Keys & Foreign Keys
 
-1. Database
-DataDigger – Main database used for storing all tables
-2. Tables
-Customers
-Customer_ID (Primary Key)
-Name
-Email
-Address
+we will design and manipulate a structured relational database for an **E-Commerce Store** to gain deeper insights into SQL query execution.
 
-## Features
-Create and manage databases
-Insert multiple records
-Perform filtering using WHERE
-Sorting using ORDER BY
-Grouping using GROUP BY
-Data analysis queries
-Delete and update records
+
+##  Project Scope
+we will work on multiple relational tables. Below is the structure:
+
+###  1. Customers Table
+
+**Fields:**
+
+* CustomerID
+* Name
+* Email
+* Address
+
+### Queries to Perform
+
+*  Insert at least 5 sample customers into the Customers table
+*  Retrieve all customer details
+*  Update a customer's address
+*  Delete a customer using their CustomerID
+*  Display all customers whose name is 'Alice'
+ 
+### 2. Orders Table
+
+**Fields:**
+
+* OrderID
+* CustomerID
+* OrderDate
+* TotalAmount
+
+##  Technologies Used
+
+* SQL
+* MySQL
+* Applying constraints like Primary Key & Foreign Key
+
