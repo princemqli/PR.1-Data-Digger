@@ -1,4 +1,4 @@
-##Data Digger – SQL Project
+#Data Digger – SQL Project
 #Overview
 
 Data Digger is a simple SQL-based project designed to manage and analyze data efficiently. It focuses on performing real-world database operations like storing, retrieving, filtering, and analyzing structured data.
